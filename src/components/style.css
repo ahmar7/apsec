@@ -1,0 +1,45 @@
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: 'Roboto', sans-serif;
+     background-color: rgb(241, 241, 241);
+     color: rgb(0, 0, 0);
+ }
+
+ .logo-cover img {
+     width: 300px;
+ }
+
+ .decor-sec {
+     background-image: url(../assets/img/DECORATION.png);
+     background-size: 100% 100%;
+     /* background-position: center; */
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-repeat: no-repeat;
+ }
+
+ .decor-sec h2 {
+     color: #1F1F1F;
+ }
+
+
+ .founded-section {
+     padding: 20px;
+ }
+
+ .founded-section h3 {
+     text-align: left;
+ }
+
+ .ico-flex {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+ }
+
+ .ico-flex img {
+     width: 160px;
+ }
